@@ -19,7 +19,7 @@ class Solution {
         if (root == null) return 0;
         var sum = 0
         
-        if (root.`val` % 2 == 0) {
+        if (root.`val` and 1 == 0) {
             sum += root.left?.left?.`val` ?: 0
             sum += root.left?.right?.`val` ?: 0
             sum += root.right?.left?.`val` ?: 0
