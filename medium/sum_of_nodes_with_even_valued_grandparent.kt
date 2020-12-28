@@ -20,14 +20,14 @@ class Solution {
         var sum = 0
         
         if (root.`val` % 2 == 0) {
-            sum += root?.left?.left?.`val` ?: 0
-            sum += root?.left?.right?.`val` ?: 0
-            sum += root?.right?.left?.`val` ?: 0
-            sum += root?.right?.right?.`val` ?: 0
+            sum += root.left?.left?.`val` ?: 0
+            sum += root.left?.right?.`val` ?: 0
+            sum += root.right?.left?.`val` ?: 0
+            sum += root.right?.right?.`val` ?: 0
         }
         
-        sum += sumEvenGrandparent(root?.left)
-        sum += sumEvenGrandparent(root?.right)
+        sum += sumEvenGrandparent(root.left)
+        sum += sumEvenGrandparent(root.right)
         return sum
     }
 }
