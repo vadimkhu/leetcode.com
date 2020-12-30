@@ -1,4 +1,4 @@
-# Some  notes on Data Structures usage
+# Some notes on using Data Structures in Kotlin with examples
 
 ## 1. IntArray conversion
 
