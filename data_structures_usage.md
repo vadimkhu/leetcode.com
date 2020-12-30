@@ -1,6 +1,6 @@
-# Some notes on using Data Structures in Kotlin with examples
+## Some notes on using Data Structures in Kotlin with examples
 
-## 1. IntArray conversion
+### 1. IntArray conversion
 
 ```kotlin
 var temporary = mutableListOf<Int>()
@@ -10,6 +10,6 @@ var temporary = mutableListOf<Int>()
 val answer = temporary.toIntArray()
 ```
 
-## 2. HashMap usage
+### 2. HashMap usage
 
 medium/group_anagrams.kt
