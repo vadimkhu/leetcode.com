@@ -27,3 +27,15 @@ class ParkingSystem(var big: Int, var medium: Int, var small: Int) {
         }
 }
 ```
+
+### 4. IntArray initialization
+
+```kotlin
+val dp: IntArray = IntArray(nums.size) { 1 }
+```
+
+### 5. max()
+
+```kotlin
+res = Math.max(res, dp[i])
+```
