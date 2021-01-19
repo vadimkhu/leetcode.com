@@ -39,3 +39,29 @@ val dp: IntArray = IntArray(nums.size) { 1 }
 ```kotlin
 res = Math.max(res, dp[i])
 ```
+
+### 6. Find maximum sum in a two-dimensional array
+
+The next piece of code:
+```kotlin
+// Runtime: 164 ms, Memory Usage: 36.1 MB
+class Solution {
+    fun maximumWealth(accounts: Array<IntArray>): Int {
+        var max: Int = 0
+        for (account in accounts) {
+            val sum: Int = account.sum()
+            max = Math.max(max, sum)
+        }
+        return max
+    }
+}
+```
+can be converted to the one-line solution:
+```kotlin
+// Runtime: 188 ms, Memory Usage: 37 MB
+class Solution {
+    fun maximumWealth(accounts: Array<IntArray>): Int {
+        return accounts.map { it->sum() }.max() ?: 0
+    }
+}
+```
