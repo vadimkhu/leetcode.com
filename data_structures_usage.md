@@ -77,3 +77,9 @@ class Solution {
     }
 }
 ```
+
+### 8. Boolean Array
+
+```kotlin
+    var dp: BooleanArray = BooleanArray(s.length) 
+```
