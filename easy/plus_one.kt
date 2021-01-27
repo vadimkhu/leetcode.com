@@ -13,11 +13,10 @@ class Solution {
             carry = (temp + carry) / 10
         }
         if (carry > 0) {
-            var number = IntArray(digits.size+1) { 
+            return IntArray(digits.size+1) { 
                 if (it == 0) carry
                 else digits[it-1]
             }
-            return number
         }
         return digits
     }
