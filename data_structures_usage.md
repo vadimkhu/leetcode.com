@@ -83,3 +83,10 @@ class Solution {
 ```kotlin
     var dp: BooleanArray = BooleanArray(s.length) 
 ```
+
+### 9. until
+
+```kotlin
+    for (i in 0 until arr.size)
+        ...
+```
