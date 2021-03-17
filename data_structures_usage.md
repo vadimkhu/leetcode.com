@@ -13,6 +13,7 @@ val answer = temporary.toIntArray()
 ### 2. HashMap usage
 
 medium/group_anagrams.kt
+medium/most_frequent_subtree_sum.kt
 
 ### 3. Using 'when' for returning a value from a function
 
