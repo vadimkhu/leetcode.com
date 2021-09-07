@@ -14,7 +14,7 @@ val answer = temporary.toIntArray()
 
 medium/group_anagrams.kt\
 medium/most_frequent_subtree_sum.kt\
-medium/isomorphic_string.kt\
+medium/isomorphic_string.kt
 
 ### 3. Using 'when' for returning a value from a function
 
