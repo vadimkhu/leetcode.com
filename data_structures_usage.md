@@ -104,3 +104,9 @@ class Solution {
         return res
     }
 ```
+
+### 11. Set
+
+```val vowels = setOf('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
+...
+```if (vowels.contains(s[i])) ...
